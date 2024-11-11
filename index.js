@@ -87,6 +87,72 @@ const songs = [
         cover: 'assets/12.jpg',
         artist: 'Eminem ft. Rihanna',
     },
+    {
+        path: 'assets/13.mp3',
+        displayName: 'Worlds Smallest Violi',
+        cover: 'assets/13.jpg',
+        artist: 'AJR',
+    },
+    {
+        path: 'assets/14.mp3',
+        displayName: 'Pompeii',
+        cover: 'assets/14.jpg',
+        artist: 'Bastille',
+    },
+    {
+        path: 'assets/15.mp3',
+        displayName: 'Judas',
+        cover: 'assets/15.jpg',
+        artist: 'Lady Gaga',
+    },
+    {
+        path: 'assets/16.mp3',
+        displayName: 'Bad Boy',
+        cover: 'assets/16.jpg',
+        artist: 'Marwa Loud',
+    },
+    {
+        path: 'assets/17.mp3',
+        displayName: 'House of Gold',
+        cover: 'assets/17.jpg',
+        artist: 'Twenty One Pilots',
+    },
+    {
+        path: 'assets/18.mp3',
+        displayName: 'Levitate',
+        cover: 'assets/18.jpg',
+        artist: 'Twenty One Pilots',
+    },
+    {
+        path: 'assets/19.mp3',
+        displayName: 'The Outsidde',
+        cover: 'assets/19.jpg',
+        artist: 'Twenty One Pilots',
+    },
+    {
+        path: 'assets/20.mp3',
+        displayName: 'Bandito',
+        cover: 'assets/20.jpg',
+        artist: 'Twenty One Pilots',
+    },
+    {
+        path: 'assets/21.mp3',
+        displayName: 'Paladin Strait',
+        cover: 'assets/21.jpg',
+        artist: 'Twenty One Pilots',
+    },
+    {
+        path: 'assets/22.mp3',
+        displayName: 'Routines In The Night',
+        cover: 'assets/22.jpg',
+        artist: 'Twenty One Pilots',
+    },
+    {
+        path: 'assets/23.mp3',
+        displayName: 'The Craving',
+        cover: 'assets/23.jpg',
+        artist: 'Twenty One Pilots',
+    },
 ];
 
 let musicIndex = 0;
