@@ -172,7 +172,13 @@ function playMusic() {
     playBtn.classList.replace('fa-play', 'fa-pause');
     // Set button hover title
     playBtn.setAttribute('title', 'Pause');
-    music.play();
+
+    // Cek apakah browser membolehkan autoplay setelah interaksi
+    if (music.paused) {
+        music.play().catch((error) => {
+            console.log("Autoplay gagal, mungkin perlu interaksi pengguna lebih lanjut.");
+        });
+    }
 }
 
 function pauseMusic() {
